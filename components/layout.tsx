@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{"Mykola Kharytonchuk"}</h1>
+            <h1 className={utilStyles.heading2Xl}>{"Mykola Kh"}</h1>
           </>
         ) : (
           <>
