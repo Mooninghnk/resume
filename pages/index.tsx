@@ -15,9 +15,13 @@ export default function Home({ allPostsData }) {
         <title>{"resume"}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>React, Nextjs, Nodejs, Typescirpt, Golang</p>
-        <p>Webdeveloper, ServerSide, Crypto Enthusiast </p>
-      </section>
+        <h1>Skills/Experience: </h1>
+  <p>React, Node.js, TypeScript, Rust🦀</p>
+  <p>WebDev, BackEnd, Crypto Enthusiast </p>
+  <h1>About me:</h1>
+<h1>Not trying to reinvent the wheel most of the project i have listed here are just websites, for any others please check my github.</h1>
+</section>
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <small className={utilStyles.lightText}>
           <Link href={"https://github.com/Mooninghnk"}>
@@ -53,6 +57,11 @@ export default function Home({ allPostsData }) {
             #2
             <Link href={"https://www.figma.com/file/3H1C3PuYPNWyrkj8ZONNxn/3d-shape-Landing-page-(Community)?node-id=0%3A1"}> 
             <img src={"/images/vic2.gif"}/>
+            </Link>
+            <br/>
+            <h2 className={utilStyles.headingLg}>Token</h2>
+            <Link href={"https://tisi-final.vercel.app/"}>
+              <img src={"/images/rec.gif"}/>
             </Link>
             <br />
           </li>
