@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
   <p>React, Node.js, TypeScript, Rust🦀</p>
   <p>WebDev, BackEnd, Crypto Enthusiast </p>
   <h1>About me:</h1>
-<h1>Not trying to reinvent the wheel most of the project i have listed here are just websites, for any others please check my github.</h1>
+<h1>Not trying to reinvent the wheel, most of the project i have listed here are just websites, for any others please check my github.</h1>
 </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
